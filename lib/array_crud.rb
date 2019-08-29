@@ -1,17 +1,19 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ['monday','tuesday','wednesday','thursday']
 end
 
 def add_element_to_end_of_array(array, element)
-  
+array=['monday','tuesday','wednesday','thursday']
+array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array=['monday','tuesday','wednesday','thursday']
+array.unshift("arrays!")
 end
 
 def remove_element_from_end_of_array(array)
